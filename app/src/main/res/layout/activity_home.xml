@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    android:scrollbarSize="0sp">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+            android:gravity="center"
+            android:text="@string/Welcome"
+            android:textAlignment="center"
+            android:textColor="@color/lapis_blue"
+            android:textCursorDrawable="@color/lapis_blue"
+            android:textFontWeight="7"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="424dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/corner"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/enter_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:ems="10"
+                android:hint="@string/Enter_name"
+                android:inputType="textPersonName"
+                android:paddingLeft="4dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/enter_surname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+
+                android:ems="10"
+                android:hint="@string/Enter_Surname"
+                android:inputType="textPersonName"
+                android:paddingLeft="4dp" />
+
+            <TextView
+                android:id="@+id/enter_class"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:hint="@string/Enter_class"
+                android:inputType="textPersonName"
+                android:paddingLeft="4dp" />
+
+            <TextView
+                android:id="@+id/enter_grade"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:ems="10"
+                android:hint="@string/Enter_roll_number"
+                android:inputType="number"
+                android:paddingLeft="4dp" />
+
+            <TextView
+                android:id="@+id/enter_roll_number"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:ems="10"
+                android:hint="@string/Enter_grade"
+                android:inputType="textPersonName"
+                android:paddingLeft="4dp" />
+
+            <TextView
+                android:id="@+id/enter_contact_number"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:hint="@string/Enter_contact_number"
+                android:inputType="number"
+                android:paddingLeft="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/Back"
+                android:layout_width="117dp"
+                android:layout_height="61dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="48dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/corner"
+                android:text="@string/Back"
+                android:textColor="@color/lapis_blue"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2471A3 </color>
+    <color name="colorPrimaryDark">#154360</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="lapis_blue">#15317E</color>
+    <color name="Rblue">#2B547E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

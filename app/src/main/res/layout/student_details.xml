@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    android:scrollbarSize="0sp">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StudentDetails">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:gravity="center"
+        android:text="@string/Student_details"
+        android:textAlignment="center"
+        android:textColor="@color/lapis_blue"
+        android:textCursorDrawable="@color/lapis_blue"
+        android:textFontWeight="7"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:src="@mipmap/icon"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="424dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/corner"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+       >
+
+
+        <EditText
+            android:id="@+id/enter_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rectangle"
+
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="4dp"
+            android:hint="@string/Enter_name" />
+
+        <EditText
+            android:id="@+id/enter_surname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rectangle"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="4dp"
+            android:hint="@string/Enter_Surname" />
+
+        <EditText
+            android:id="@+id/enter_class"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rectangle"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="4dp"
+            android:hint="@string/Enter_class" />
+
+        <EditText
+            android:id="@+id/enter_roll_number"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rectangle"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingLeft="4dp"
+            android:hint="@string/Enter_roll_number" />
+
+        <EditText
+            android:id="@+id/enter_grade"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rectangle"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="4dp"
+            android:hint="@string/Enter_grade" />
+
+        <EditText
+            android:id="@+id/enter_contact_number"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rectangle"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingLeft="4dp"
+            android:hint="@string/Enter_contact_number" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/Cancel"
+            android:layout_width="117dp"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/corner"
+            android:text="@string/Cancel"
+            android:textColor="@color/lapis_blue"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <Button
+            android:id="@+id/Save"
+            android:layout_width="117dp"
+            android:layout_height="61dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/corner"
+            android:text="@string/Save"
+            android:textColor="@color/lapis_blue"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

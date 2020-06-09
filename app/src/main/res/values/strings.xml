@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Student_Info</string>
+    <string name="Student_info">Student Information</string>
+    <string name="Student_details">Student Details</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Save">Save</string>
+    <string name="Enter_name">Enter Name</string>
+    <string name="Enter_Surname">Enter Surname</string>
+    <string name="Enter_class">Enter Class</string>
+    <string name="Enter_roll_number">Enter Roll Number</string>
+    <string name="Enter_grade">Enter Grade</string>
+    <string name="Enter_contact_number">Enter Contact Number</string>
+    <string name="plus">+</string>
+    <string name="title_activity_recycler_view">RecyclerViewActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="Back">Back</string>
+    <string name="Welcome">Welcome</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
